@@ -50,4 +50,54 @@
 	$pants1->style = “Husky”;
 
 
+	class Shoes {
+	public $brand;
+	public $type;
+	public $price;
+
+	function __construct($brand, $type, $price) {
+	$this­>brand = $brand;
+	$this­>type = $type;
+	$this­>price = $price;
+	}
+	function getShoes() {
+	return “{$this­>brand}” .
+	“{$this­>price}”;
+	}
+}
+
+	class shirts {
+	public $brand;
+	public $type;
+	public $price;
+
+	function __construct($brand, $type, $price) {
+	$this­>brand = $brand;
+	$this­>type = $type;
+	$this­>price = $price;
+	}
+	function getShirts() {
+	return “{$this­>brand}” .
+	“{$this­>price}”;
+	}
+}
+
+	class pants {
+	public $brand;
+	public $type;
+	public $price;
+
+	function __construct($brand, $type, $price) {
+	$this­>brand = $brand;
+	$this­>type = $type;
+	$this­>style = $style;
+	}
+	function getPants() {
+	return “{$this­>brand}” .
+	“{$this­>style}”;
+	}
+}
+
+
+
 

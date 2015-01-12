@@ -15,4 +15,6 @@ function getNew() {
 	return $this­>new; .
 	$this­>php;
 	}
-}
+} 
+$new = new updatephp ("New php code", "Updating this code");
+print $new->php();

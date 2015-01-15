@@ -17,4 +17,16 @@ class Fifa {
 	$this->Packs=$Packs;
 
 	}
+	
+	function getCoins(){
+		return "To get" .$this->Coins;
+			   "To get" . $this->Packs;
+
+	}
+	
 }
+	class Ibra extends Fifa{
+
+		
+
+	}

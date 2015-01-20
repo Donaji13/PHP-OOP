@@ -12,8 +12,8 @@ function __construct($new, $php, $code) {
 	$this->code = $code;
 }
 function getNew() {
-	return $this­>new; .
-	$this­>php;
+	return $this->new; .
+	"hi" . $this->
 	}
 } 
 $new = new updatephp ("New php code", "Updating this code");
